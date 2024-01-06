@@ -479,10 +479,14 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 }
 
 .batton-icon-footer{
+    display: block;
+    content: "";
     width: 40px;
     height: 40px;
-}
-
-.batton-icon-footer:hover{
-    fill:
+    margin-top: 16px;
+    border-radius: 50%;
+    background: #4D5AE5;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
