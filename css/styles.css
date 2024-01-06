@@ -464,18 +464,18 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .footer-icon {
     display: flex;
     gap: 16px;
-    justify-content: space-between;
+    display: inline-flex;
     padding: 0;
     margin: 0;
-    outline: 1px solid blueviolet;
     list-style: none;
-    /* border: none;
-    cursor: pointer; */
+    background-color: #2E2F42;
+    cursor: pointer;
 }
 
 .batton-footer {
     border: none;
     padding: 0;
+    background-color: #2E2F42;
 }
 
 .batton-icon-footer{
@@ -488,5 +488,6 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     background: #4D5AE5;
     background-size: 24px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    fill: #e7e9fc; 
 }
