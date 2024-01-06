@@ -476,6 +476,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     border: none;
     padding: 0;
     background-color: #2E2F42;
+    color: #e7e9fc;
 }
 
 .batton-icon-footer{
@@ -489,5 +490,4 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center;
-    fill: #e7e9fc; 
 }
