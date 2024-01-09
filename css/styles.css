@@ -38,7 +38,7 @@ ul, li {
     background-image: linear-gradient(to right,
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)
-    ), url(../images/people-office\ 1.jpg);
+    ), url(../images/people-office.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,6 +306,8 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     border: none;
     border-radius: 4px;
     margin-top: 48px;  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .main-button:hover, .main-button:active, .main-button:focus {
@@ -491,7 +493,10 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     background-repeat: no-repeat;
     background-color: none;
 }
-
+.social-links li:first {
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color:250ms
+}
 
 .link-icon {
     border-radius: 50%;
@@ -508,6 +513,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .icon-effects:hover, .icon-effects:focus {
     fill: #31D0AA;
     background: #31D0AA;
+    
 }
 
 .link-icon use {
