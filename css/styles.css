@@ -524,40 +524,23 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     display: flex;
     gap: 16px;
     height: 40px;
+    width: 40px;
     background-repeat: no-repeat;
     background-color: none;
 }
-.social-links li:first {
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    background-color:250ms
-}
 
 .link-icon {
-    border-radius: 50%;
-    background: #4D5AE5; 
-    background-repeat: no-repeat;
-    fill: #F4F4FD;
-}
-
-.icon-effects {
     background-color: #4d5ae5;
     fill: #F4F4FD;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-effects:hover, .icon-effects:focus {
     background-color: #31d0aa;
-}
-
-svg {
-    width: 24px;
-    height: 24px;
-}
-
-.link-icon use {
-    x: 8px;
-    y: 8px;
 }
