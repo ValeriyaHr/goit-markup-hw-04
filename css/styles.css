@@ -155,7 +155,9 @@ ul, li {
     transform: translateY(0%);
     background-color: #4d5ae5;
 }
-
+.portfolio-image-content:hover{
+    transform: translateY(0%);
+}
 
 .ul-section-portfolio {
     color: #2e2f42;
