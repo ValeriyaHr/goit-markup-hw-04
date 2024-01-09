@@ -185,10 +185,20 @@ ul, li {
 }
 
 .autor{
-    padding: 32px 0;
+    padding: 32px 16px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+    margin: 0 auto;
+}
+
+.social-links-autor{
+    display: flex;
+    gap: 24px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: none;
+
 }
 
 .flex-list-team:last-child {
@@ -354,6 +364,25 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     margin-right: 0;
 }
 
+.image-hidden-hover:hover{
+    display: none;
+}
+    
+.content-hidden:hover{
+    display: none;
+}
+
+.content-hidden:hover{
+    display: block;
+    content: "";
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    outline: 1px solid blueviolet;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+}
+
 .portfolio-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -419,6 +448,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .p-text {
@@ -440,6 +470,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .footer-media {
     color: #FFF;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .logo-studio-fooler {
@@ -448,46 +479,37 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     margin-bottom: 16px;
 }
 
-/* .footer-social::after {
-    display: block;
-    content: "";
-    height: 40px;
-    width: 40px;
-    margin-top: 16px;
-    border-radius: 50%;
-    background: #4D5AE5;
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-position: center; 
-} */
+.footer-info{
+    display: flex;
+    gap: 120px;
+}
 
-.footer-icon {
+.social-links{
     display: flex;
     gap: 16px;
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    background-color: #2E2F42;
-    cursor: pointer;
-}
-
-.batton-footer {
-    border: none;
-    padding: 0;
-    background-color: #2E2F42;
-    color: #e7e9fc;
-}
-
-.batton-icon-footer{
-    display: block;
-    content: "";
-    width: 40px;
     height: 40px;
-    margin-top: 16px;
-    border-radius: 50%;
-    background: #4D5AE5;
-    background-size: 24px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-color: none;
+}
+
+.link-icon {
+    border-radius: 50%;
+    background: #4D5AE5; 
+    background-repeat: no-repeat;
+    fill: #F4F4FD;
+}
+
+.icon-effects {
+    fill: #F4F4FD;
+}
+
+
+.icon-effects:hover, .icon-effects:focus {
+    fill: #31D0AA;
+    background: #31D0AA;
+}
+
+.link-icon use {
+    x: 8px;
+    y: 8px;
 }
