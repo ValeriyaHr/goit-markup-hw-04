@@ -200,7 +200,6 @@ ul, li {
 .social-links-autor{
     display: flex;
     gap: 24px;
-    height: 40px;
     background-repeat: no-repeat;
     background-color: none;
     justify-content: center;
@@ -535,14 +534,17 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .social-links{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
-    height: 40px;
-    width: 40px;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
-    background-color: none;
+    background-color: NONE;
 }
 
 .link-icon {
+    display: flex;
     background-color: #4d5ae5;
     fill: #F4F4FD;
     border-radius: 50%;
