@@ -573,7 +573,9 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     height: 40px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.icon-effects:hover, .icon-effects:focus {
-    background-color: #31d0aa;
+.llink-icon:hover,.link-icon:focus{
+    background-color: #31d0aa; 
 }
+/* .icon-effects:hover, .icon-effects:focus {
+    background-color: #31d0aa;
+} */
