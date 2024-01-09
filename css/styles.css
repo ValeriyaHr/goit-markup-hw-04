@@ -236,6 +236,7 @@ ul, li {
     padding: 24px 0;
     position: relative; 
     color: #404bbf; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
@@ -265,9 +266,10 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
     color: #2e2f42;
 }
 
-.logo-studio-a{
+.logo-studio-a {
     color: #2E2F42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .nav-tittle {
