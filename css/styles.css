@@ -232,8 +232,10 @@ ul, li {
 }
 
 .li-studio-a {
-    color: #2e2f42;
+     
     padding: 24px 0;
+    position: relative; 
+    color: #404bbf; 
 }
 
 a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
@@ -277,7 +279,7 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
     align-items: center;
 }
 
-.li-studio:after {
+.li-studio-a:after {
     content: '';
     position: absolute;
     left: 0;
