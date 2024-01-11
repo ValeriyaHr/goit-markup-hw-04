@@ -146,11 +146,20 @@ ul, li {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
 }
 
 .li-portfolio:hover .portfolio-text-wrap{
     transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.li-portfolio:hover{
+transform: translateY(0%);
 }
 
 .ul-section-portfolio {
@@ -233,7 +242,7 @@ border-radius: 50%;
 }
 
  .social-link {
- 
+    fill:#f4f4fd;
  }
 
  .social-link:hover,.social-link:focus{
